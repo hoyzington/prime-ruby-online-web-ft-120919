@@ -3,5 +3,8 @@ def prime?(n)
   return true if n == 2
   range_limit = n-1
   range = (2..range_limit).to_a
-  return false if range.any? {|x| n % x == 0}
+  if range.any? {|x| n % x == 0}
+    return false
+  else
+    true
 end  
