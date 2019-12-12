@@ -1,4 +1,4 @@
 def prime?(n)
-  return false if n.negative?
+  return false if n < 2
   
 end  
