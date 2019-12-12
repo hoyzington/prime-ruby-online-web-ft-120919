@@ -1,3 +1,4 @@
 def prime?(n)
-  return false if n.negative? || !n.
+  return false if n.negative?
+  
 end  
